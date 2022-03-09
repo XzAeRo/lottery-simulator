@@ -3,8 +3,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Background from "./background"
 import styles from '../styles/Home.module.css'
+import type { AppProps } from 'next/app'
 
-export default function Layout({ children }) {
+export default function Layout({children}:any) {
     return (
     <>
         <div className="md:container md:mx-auto text-slate-400 bg-slate-900">
