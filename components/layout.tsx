@@ -1,9 +1,8 @@
 
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from './Image'
 import Background from "./background"
 import styles from '../styles/Home.module.css'
-import type { AppProps } from 'next/app'
 
 export default function Layout({children}:any) {
     return (

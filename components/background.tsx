@@ -1,6 +1,5 @@
-import Image from 'next/image'
-import bg from '../images/bg.png'
-
+import Image from './Image'
+import bg from '../public/images/bg.png'
 
 export default function Background() {
     return (
